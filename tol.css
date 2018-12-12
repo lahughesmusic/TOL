@@ -1,6 +1,6 @@
 body {
   background-image: url(./images/brrr.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: 100%;
 }
 
@@ -17,7 +17,7 @@ p {
 }
 
 #questions {
-  width: 60%;
+  width: 80%;
   height: 80%;
   margin: 10% auto;
 }
@@ -25,27 +25,30 @@ p {
 #backgroundbird {
   background-image: url("./images/bird.jpg");
   background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 #road {
   background-image: url("./images/winterroad.jpg");
   background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 #cat {
   background-image: url("./images/cat.jpg");
   background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 #trail {
   background-image: url("./images/trail.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 
 #explanation {
   background-image: url("./images/night.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 button {
