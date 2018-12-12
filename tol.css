@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   color: white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
@@ -28,14 +28,42 @@ p {
 }
 
 #road {
-  background-image: url("./images/road.jpg");
+  background-image: url("./images/winterroad.jpg");
+  background-attachment: fixed;
 }
 
 #cat {
   background-image: url("./images/cat.jpg");
+  background-attachment: fixed;
 }
 
 #trail {
   background-image: url("./images/trail.jpg");
   background-repeat: no-repeat;
+}
+
+#explanation {
+  background-image: url("./images/night.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button {
+  height: 70px;
+  width: 200px;
+  background-color: red;
+  color: green;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 20px;
+  margin-left: 35%;
+}
+
+#index {
+  background-attachment: fixed;
+}
+
+#black {
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
