@@ -1,3 +1,41 @@
 body {
-  background-color: green;
+  background-image: url(./images/brrr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#questions {
+  width: 60%;
+  height: 80%;
+  margin: 10% auto;
+}
+
+#backgroundbird {
+  background-image: url("./images/bird.jpg");
+  background-attachment: fixed;
+}
+
+#road {
+  background-image: url("./images/road.jpg");
+}
+
+#cat {
+  background-image: url("./images/cat.jpg");
+}
+
+#trail {
+  background-image: url("./images/trail.jpg");
+  background-repeat: no-repeat;
 }
